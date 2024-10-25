@@ -1,3 +1,11 @@
+# bench-promos
+
+Projeto feito para o youtuber brasileiro Lucas Ishi [benchpromos.com.br](http://benchpromos.com.br)
+
+![Logo do Projeto](public/image-software.png)
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
