@@ -1,0 +1,117 @@
+/* src/components/ProductCard.css */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #030712;
+  color: white;
+}
+
+/* src/components/ProductCard.module.css */
+.image {
+  max-height: 200px; /* Limita a altura da imagem */
+  object-fit: contain; /* Mantém a proporção da imagem */
+  margin: -15px 0; /* Adiciona um pouco de espaço acima e abaixo da imagem */
+}
+
+
+.card {
+  background-color: #030712;
+  border: 1px solid #1F2937; /* Define borda arredondada */
+  color: white;
+  margin: 0; /* Remove margens do card */
+  padding: 0; /* Remove padding do card */
+  width: 100%; /* Ajusta a largura do card para 90% */
+  height: 100%;
+  max-width: 400px; /* Limita a largura máxima se necessário */
+  margin: 0 auto; /* Centraliza o card */
+  overflow: hidden;
+}
+
+
+.card-body {
+  padding: 10px; /* Reduz o padding do card */
+}
+
+.cardBody {
+  display: flex;
+  flex-direction: column;
+  height: 100%; /* Certifique-se de que o corpo do cartão ocupe toda a altura */
+}
+
+.card-body h5 {
+  margin-bottom: 5px; /* Reduz a margem do título */
+}
+
+.card-body p {
+  margin: 5px 0; /* Reduz a margem dos parágrafos */
+}
+
+.coupon-modal {
+  margin-top: 5px; /* Reduz a margem do cupom */
+}
+
+/* Estilo para deixar o type mais para a esquerda */
+.productType {
+  margin-left: -45px; /* Ajusta para a esquerda */
+}
+
+.productName {
+  padding-top: 5px; /* Espaco abaixo do nome do produto */
+  padding-bottom: 5px;
+  font-size: 19px;
+}
+
+.priceCash {
+  font-size: 30px;
+}
+
+.priceInstallments {
+  margin-top: -20px;
+}
+
+.btnCupom, 
+.btnAcessar {
+  width: 100%; /* Ocupará toda a largura disponível */
+  border-radius: 10px;
+}
+
+.btnCupom {
+  margin-bottom: -3px;
+  background-color: #1F2937!important;
+  border: none;
+}
+
+.btnAcessar {
+  background-color: #6D28D9!important;
+  border: none;
+}
+
+.icon {
+  margin: 0;
+  padding: 0;
+  margin-right: 0px;
+}
+
+.divIcon {
+  margin-bottom: 10px;
+}
+
+.svgIcon {
+  margin-right: 3px;
+  border-radius: 40%; /* Para os ícones, tornando-os circulares */
+  padding: 0.1rem; /* Adiciona um pouco de espaço interno */
+  border: 1px solid gray;
+}
+
+.svgMessageNumber {
+  color: black;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.svgMessage {
+  color: black;
+  text-decoration: none;
+  font-size: 8px;
+}

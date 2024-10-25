@@ -1,0 +1,71 @@
+.navTheme {
+  color: white;
+  background-color: #030712 !important; 
+  justify-content: center;
+  display: flex; 
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1300px;
+  border-bottom: 5px solid transparent; /* define a espessura da borda */
+  border-image: linear-gradient(to right, #1B0F40, #6626CC, #1B0F40) 1;
+}
+
+
+.formSearch {
+  display: flex; 
+  align-items: center; 
+}
+
+.searchButton {
+  display: inline-flex;
+  align-items: center; /* Centraliza o conteúdo verticalmente */
+  justify-content: center; /* Centraliza o conteúdo horizontalmente */
+  height: 40px; /* Ajuste conforme necessário */
+  padding: 10px 15px; /* Espaço interno: 10px em cima/baixo e 15px nas laterais */
+  background-color: transparent; /* Para ver o efeito do padding */
+  border: 1px solid #0d1323;
+  border-radius: 5px;
+  cursor: pointer; /* Indica que é clicável */
+}
+
+.searchIcon {
+  margin-right: 5px; 
+  margin-left: 7px;
+}
+
+.searchText {
+  margin-right: 30px; 
+}
+
+.ctrK {
+  margin-right: 5px;
+  background-color: #1F2937!important;
+  border: none;
+  color: whitesmoke!important;
+}
+
+
+.btnToggle {
+  border-radius: 8px; 
+  padding: 5px;
+  margin-left: 10px;
+  color: #1F2937!important;
+  border: red!important;
+}
+
+.btnLogin {
+  display: inline-flex;
+  align-items: center; 
+  justify-content: center; 
+  height: 40px; 
+  padding: 10px 15px;
+  background-color: #1F2937!important; 
+  border: 1px solid #1F2937!important;
+  border-radius: 5px;
+  cursor: pointer; 
+}
+
+.btnLogin:hover {
+  background-color: #0d1323;
+}
